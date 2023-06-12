@@ -1,0 +1,96 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.title{
+  margin-bottom: 25px;
+}
+
+.weather-app {
+  max-width: 600px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #162e46;
+  color: white;
+  animation: fade-in 0.5s ease-in-out;
+  
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #5c6772;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #90959b;
+}
+
+.weather-info h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.weather-icon1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 30px; /* Increase the font size to your desired value */
+}
+
+@media (max-width: 600px) {
+  .weather-app {
+    padding: 20px;
+  }
+}
+.temp-data{
+  
+    font-size: 25px; /* Increase the font size to your desired value */
+    margin-top: 40px; /* Adjust the margin-top value to position it */
+    text-align: center; /* Align the temperature text to the center */
+  }
+  
+  .weather-icon2{
+    display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  }
